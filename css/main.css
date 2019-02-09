@@ -1,0 +1,176 @@
+/* start my rulze */
+
+.container {
+    width: 1000px;
+    font-family: tahoma;
+    margin: 0 auto
+}
+
+/* end my rulze */
+/* start header */
+
+.header {
+    background-color: #3C5998;
+    overflow: hidden;
+    color: #FFFFF5
+}
+
+.header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0 0 0 15px;
+    position: relative;
+    top: 20px;
+    float: left;
+    width: 53%
+}
+.header h1 a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.header h1 a:hover {
+    content: "ahlihdhn rd"
+}
+.header form {
+    float: left;
+    width: 43%;
+    position: relative;
+    left: 75px
+}
+.header form .form1,
+.header form .form2 {
+    float: left
+}
+.header form div p {
+    margin:18px 0 3px;
+    text-transform: capitalize
+}
+.header form .form1 {
+    margin-right: 2%
+}
+.header form .form2 button {
+    position: relative;
+    left: 3%;
+    background-color: #365899;
+    border: 1px solid #0E3872;
+    color: #fff;
+    outline: none
+}
+.header form .form2 button:hover {
+    background-color: #0E3872;
+    top:2px;
+    cursor: pointer;
+}
+.header form div a {
+    display: block;
+    text-decoration: none;
+    color: #9CB4D8;
+    margin: 3px 0;
+}
+.header form div a:hover {
+    text-decoration: underline
+}
+.header form input[type="text"],
+.header form input[type="password"] {
+    width: 140px
+}
+
+/* end header */
+/* start register */
+
+.my-register {
+    background-color: #DADEEB;
+    overflow: hidden;
+
+}
+
+.my-register .register .facehelp {
+    float: left;
+    width: 58%
+}
+.my-register .register .facehelp p {
+    font-size: 20px;
+    margin-right: 20%;
+    line-height: 1.7;
+    color: #0E3872;
+    
+}
+.my-register .register .facehelp i {
+
+font-size: 300px;
+margin-left: 60px;
+color: #3C5998
+}
+.my-register .register .createaccount {
+    float: left;
+    width: 42%;
+    position: relative;
+}
+.my-register .register .createaccount .writeinformation h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 10px
+}
+.my-register .register .createaccount a {
+    text-decoration: none;
+}
+.my-register .register .createaccount a:hover {
+    text-decoration: underline
+}
+.my-register .register .createaccount form p {
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+.my-register .register .createaccount form input {
+    padding: 10px;
+    width: 43%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize
+}
+.my-register .register .createaccount form input[type="email"],
+.my-register .register .createaccount form input[type="password"] {
+    width: 93%
+}.my-register .register .createaccount form select {
+    padding: 5px 5px;
+    border: 0;
+    border: 1px solid #9CB4D8;
+    outline: none;
+    margin-right: -5px
+}
+.my-register .register .createaccount form a {
+    font-size: 13px;
+    width: 170px;
+    position: absolute;
+    line-height: 1.2
+}
+.my-register .register .createaccount form input[type="radio"] {
+    width: 20px;
+    
+}
+.my-register .register .createaccount p {
+    font-size: 12px;
+    width: 80%;
+}
+.my-register .register .createaccount button {
+    padding: 10px 70px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border: 1px solid #777;
+    border-radius: 5px;
+    outline: none;
+    background-color: #5F944B;
+    color: #fff;
+    margin: 10px 0 12px;
+    
+}
+.my-register .register .createaccount button:hover{
+    background-color: #75B761
+}
+.my-register .register .createaccount p:last-of-type {
+    font-size: 16px;
+}
+/* end register */
